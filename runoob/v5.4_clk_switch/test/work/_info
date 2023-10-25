@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/questasim64_10.6c/examples
+vclk_switch
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 hCimP@jQf7V]Chb`iPjGO0
+I?>IH0A2h32X:5l;o[flF02
+Z1 dF:/VMshare/verilog/runoob/v5.4_clk_switch/test
+w1693474527
+8F:/VMshare/verilog/runoob/v5.4_clk_switch/clk_switch.v
+FF:/VMshare/verilog/runoob/v5.4_clk_switch/clk_switch.v
+L0 16
+Z2 OL;L;10.6c;65
+Z3 !s108 1693478304.000000
+!s107 F:/VMshare/verilog/runoob/v5.4_clk_switch/clk_switch.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/VMshare/verilog/runoob/v5.4_clk_switch/clk_switch.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vtest
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 2;>fbXU3NTm3i0O`JC=Pn3
+IEQPQoF83mBkbZ_@3cbRMC1
+R1
+w1693453314
+8F:/VMshare/verilog/runoob/v5.4_clk_switch/test.v
+FF:/VMshare/verilog/runoob/v5.4_clk_switch/test.v
+L0 3
+R2
+R3
+!s107 F:/VMshare/verilog/runoob/v5.4_clk_switch/test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/VMshare/verilog/runoob/v5.4_clk_switch/test.v|
+!i113 0
+R4
+R5

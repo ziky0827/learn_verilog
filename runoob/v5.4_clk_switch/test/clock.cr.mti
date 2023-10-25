@@ -1,0 +1,15 @@
+F:/VMshare/verilog/runoob/v5.4_clk_switch/clk_switch.v {1 {vlog -work work -vopt -stats=none F:/VMshare/verilog/runoob/v5.4_clk_switch/clk_switch.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module clk_switch
+
+Top level modules:
+	clk_switch
+
+} {} {}} F:/VMshare/verilog/runoob/v5.4_clk_switch/test.v {1 {vlog -work work -vopt -stats=none F:/VMshare/verilog/runoob/v5.4_clk_switch/test.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}}
