@@ -42,8 +42,8 @@ module mux2_tb;
 
     initial
     begin
-        $dumpfile("wave.vcd");        //鐢熸垚鐨剉cd鏂囦欢鍚嶇О
-        $dumpvars(0);    //tb妯″潡鍚嶇О
+        $dumpfile("wave.vcd");        //生成的vcd文件名称
+        $dumpvars(0);    //tb模块名称
     end
     mux2to1  mux2to1_inst (
                 .a(a),

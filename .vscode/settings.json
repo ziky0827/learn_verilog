@@ -1,4 +1,13 @@
 {
     "digital-ide.dont-show-again.propose.issue": true,
-    "digital-ide.welcome.show": false
+    "digital-ide.welcome.show": false,
+    "[verilog]": {
+        "files.encoding": "gbk"
+    },
+    "[systemverilog]": {
+        "files.encoding": "gbk"
+    },
+    "[xdc]": {
+        "files.encoding": "gbk"
+    },
 }

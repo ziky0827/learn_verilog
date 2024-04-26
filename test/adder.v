@@ -1,5 +1,4 @@
-//ÔºÅModule description
-//!
+//£°Module description
 
 module adder(X, Y, Cin, Cout, S);
 
@@ -8,7 +7,7 @@ module adder(X, Y, Cin, Cout, S);
   input Cin;
   output reg [0:1]S;
   output reg Cout;
-//ÔºÅalways
+//£°always
   always @(X , Y , Cin)
   begin
     {Cout , S} = X + Y + Cin;   //!pinjie

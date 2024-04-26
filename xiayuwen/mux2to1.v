@@ -1,6 +1,6 @@
 module mux2to1(out,a,b,sel);
-    input a,b,sel;//锛佹敞鎰忚繖閲岀殑sel鏄緭鍏ヤ俊鍙凤紝涓嶆槸杈撳嚭淇″彿锛屾墍浠ヤ笉鐢╮eg澹版槑
-    output out;//锛佹敞鎰忚繖閲岀殑out鏄緭鍑轰俊鍙凤紝涓嶆槸杈撳叆淇″彿锛屾墍浠ヤ笉鐢╳ire澹版槑
+    input a,b,sel;//！注意这里的sel是输入信号，不是输出信号，所以不用reg声明
+    output out;//！注意这里的out是输出信号，不是输入信号，所以不用wire声明
     reg out;
     
 always @ (a or b or sel)

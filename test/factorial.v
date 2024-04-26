@@ -1,4 +1,4 @@
-//é˜¶ä¹˜è¿ç®—
+//½×³ËÔËËã
 module factorial(a,b);
     input a;
     output b;

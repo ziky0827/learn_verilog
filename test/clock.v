@@ -1,4 +1,4 @@
-//!HDLBitsé¢˜ç›®ï¼Œè®¾è®¡æ—¶é’Ÿæ¨¡å—ï¼Œç”¨bcdç ï¼Œ16è¿›åˆ¶æ•°è¡¨ç¤ºä¸ªä½åä½
+//!HDLBitsÌâÄ¿£¬Éè¼ÆÊ±ÖÓÄ£¿é£¬ÓÃbcdÂë£¬16½øÖÆÊı±íÊ¾¸öÎ»Ê®Î»
 
 /*Create a set of counters suitable for use as a 12-hour clock (with am/pm indicator). Your counters are clocked by a fast-running clk, 
 with a pulse on ena whenever your clock should increment (i.e., once per second).
@@ -7,7 +7,7 @@ Reset has higher priority than enable, and can occur even when not enabled.
 The following timing diagram shows the rollover behaviour from 11:59:59 AM to 12:00:00 PM and the synchronous reset and enable behaviour.
 */
 
-//!åº”è¯¥å…ˆåˆ¤æ–­åä½ä¸Šçš„æ•°å­—ç„¶åæ ¹æ®åä½ä¸Šçš„æ•°å­—æ¥é™åˆ¶ä¸ªä½æ•°å­—çš„å–å€¼èŒƒå›´
+//!Ó¦¸ÃÏÈÅĞ¶ÏÊ®Î»ÉÏµÄÊı×ÖÈ»ºó¸ù¾İÊ®Î»ÉÏµÄÊı×ÖÀ´ÏŞÖÆ¸öÎ»Êı×ÖµÄÈ¡Öµ·¶Î§
 
 module top_module(
     input clk,
@@ -27,8 +27,8 @@ module top_module(
         end
         else if(ena) begin
             if(pm==1'b0) begin
-                if(ss[7:4]<4'h5) begin  //!åˆ¤æ–­ç§’æ•°çš„åä½
-                    if(ss[3:0]<4'h9) begin  //!åˆ¤æ–­ç§’æ•°çš„ä¸ªä½
+                if(ss[7:4]<4'h5) begin  //!ÅĞ¶ÏÃëÊıµÄÊ®Î»
+                    if(ss[3:0]<4'h9) begin  //!ÅĞ¶ÏÃëÊıµÄ¸öÎ»
                         ss[3:0]<=ss[3:0]+4'h1;
                     end
                     else begin
@@ -92,8 +92,8 @@ module top_module(
             end
 
             else begin
-                if(ss[7:4]<4'h5) begin  //!åˆ¤æ–­ç§’æ•°çš„åä½
-                    if(ss[3:0]<4'h9) begin  //!åˆ¤æ–­ç§’æ•°çš„ä¸ªä½
+                if(ss[7:4]<4'h5) begin  //!ÅĞ¶ÏÃëÊıµÄÊ®Î»
+                    if(ss[3:0]<4'h9) begin  //!ÅĞ¶ÏÃëÊıµÄ¸öÎ»
                         ss[3:0]<=ss[3:0]+4'h1;
                     end
                     else begin

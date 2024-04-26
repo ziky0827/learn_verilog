@@ -1,5 +1,5 @@
 //! Code comment
-`include "adder.v"    //åŒ…å«çš„å­æ¨¡å—
+`include "adder.v"    //°üº¬µÄ×ÓÄ£¿é
 `timescale 1ns/100ps
 
 module adder_tb();
@@ -9,7 +9,7 @@ module adder_tb();
     output Cout;
 
     adder U(
-              .X(A),  //!duankou
+              .X(A),  //!¶Ë¿Ú
               .Y(B),
               .Cin(Cin),
               .Cout(Cout),
@@ -39,10 +39,10 @@ module adder_tb();
     /*iverilog */
     initial
     begin
-        $dumpfile("wave.vcd");        //ç”Ÿæˆçš„vcdæ–‡ä»¶åç§°
-        $dumpvars(0);    //tbæ¨¡å—åç§°
+        $dumpfile("wave.vcd");        //Éú³ÉµÄvcdÎÄ¼şÃû³Æ
+        $dumpvars(0);    //tbÄ£¿éÃû³Æ
     end
     /*iverilog */
 
 endmodule
-//!adder.v:44: $finish called at 70 (1s)ä¸çŸ¥é“è¿™ä¸ªè¾“å‡ºæ˜¯ä»€ä¹ˆæ„æ€
+//!adder.v:44: $finish called at 70 (1s)²»ÖªµÀÕâ¸öÊä³öÊÇÊ²Ã´ÒâË¼

@@ -1,4 +1,4 @@
-//è¾“å‡ºæµ‹è¯•ä¿¡æ¯
+//Êä³ö²âÊÔĞÅÏ¢
 module demo_tb;
   reg [5:0]var1,var2;
   integer i = 0;

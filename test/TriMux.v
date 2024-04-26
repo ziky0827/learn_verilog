@@ -1,4 +1,4 @@
-//二选一多路选择器,门电路有延时，状态出现高阻态
+//��ѡһ��·ѡ����,�ŵ�·����ʱ��״̬���ָ���̬
 `timescale 1ns/100ps
 module TriMux(i0,i1,sele,y);
 	input i0,i1,sele;
