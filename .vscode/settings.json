@@ -7,7 +7,7 @@
     "[systemverilog]": {
         "files.encoding": "gbk"
     },
-    "[xdc]": {
+    "[tcl]": {
         "files.encoding": "gbk"
     },
 }
