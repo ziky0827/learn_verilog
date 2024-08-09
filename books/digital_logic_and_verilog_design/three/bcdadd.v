@@ -1,10 +1,10 @@
-//!1ä½bcdåŠ æ³•å™¨
+//!1Î»bcd¼Ó·¨Æ÷
 module bcdadd(cin,x,y,s,cout);
     input cin;
     input [3:0]x,y;
     output reg [3:0]s;
     output reg cout;
-    reg [4:0]z;      //å­˜å‚¨ä¸­é—´å€¼ï¼Œåˆ¤æ–­æ˜¯å¦éœ€è¦æ ¡æ­£
+    reg [4:0]z;      //´æ´¢ÖĞ¼äÖµ£¬ÅĞ¶ÏÊÇ·ñĞèÒªĞ£Õı
     
     always@(cin,x,y)
     begin
@@ -12,7 +12,7 @@ module bcdadd(cin,x,y,s,cout);
         if(z<10)
             {cout,s} = z;
         else
-            {cout,s} = z+6;     //ï¼ç»“æœè¶…è¿‡åéœ€è¦ï¼‹6è¿›è¡ŒçŸ«æ­£
+            {cout,s} = z+6;     //£¡½á¹û³¬¹ıÊ®ĞèÒª£«6½øĞĞ½ÃÕı
 
     end
 

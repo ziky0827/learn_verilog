@@ -1,4 +1,12 @@
-//将输出打印
+/*
+ * @Author       : ziky
+ * @Date         : 2023-10-11 20:29:31
+ * @Version      : V1.0.0
+ * @LastEditTime : 2024-08-09 21:12:24
+ * @LastEditors  : ziky
+ * @FilePath     : \verilog_prj\test\print_tb.v
+ * @Description  : 测试输出打印display
+ */
 
 module print_tb();
 

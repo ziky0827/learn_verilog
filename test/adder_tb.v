@@ -9,12 +9,12 @@ module adder_tb();
     output Cout;
 
     adder U(
-              .X(A),  //!¶Ë¿Ú
-              .Y(B),
-              .Cin(Cin),
-              .Cout(Cout),
-              .S(S)
-          );
+            .X(A),  //!¶Ë¿Ú
+            .Y(B),
+            .Cin(Cin),
+            .Cout(Cout),
+            .S(S)
+            );
 
     initial
     begin

@@ -1,4 +1,4 @@
-//---åˆ©ç”¨ç”Ÿæˆæ¨¡å—generateå¾ªç¯ä¾‹åŒ–å…¨åŠ å™¨//
+//---ÀûÓÃÉú³ÉÄ£¿égenerateÑ­»·Àı»¯È«¼ÓÆ÷//
 module adder2 (carryin,x,y,s,carryout);
     parameter n = 2;
     input carryin;
@@ -6,7 +6,7 @@ module adder2 (carryin,x,y,s,carryout);
     output [n-1:0]s;
     output carryout;
     wire [n:0]c;
-    genvar i;   //ç”Ÿæˆæ¨¡å—çš„å˜é‡å®šä¹‰
+    genvar i;   //Éú³ÉÄ£¿éµÄ±äÁ¿¶¨Òå
 
     assign c[0] = carryin;
     assign carryout = c[n];

@@ -1,4 +1,13 @@
-//输出测试信息
+/*
+ * @Author       : ziky
+ * @Date         : 2023-03-06 18:59:13
+ * @Version      : V1.0.0
+ * @LastEditTime : 2024-08-09 21:09:51
+ * @LastEditors  : ziky
+ * @FilePath     : \verilog_prj\test\demo_tb.v
+ * @Description  : 测试输出打印
+ */
+
 module demo_tb;
   reg [5:0]var1,var2;
   integer i = 0;

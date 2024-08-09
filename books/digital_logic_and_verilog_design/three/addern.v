@@ -1,4 +1,4 @@
-//!å…¨åŠ å™¨çš„é€šç”¨ç»“æ„
+//!È«¼ÓÆ÷µÄÍ¨ÓÃ½á¹¹
 
 module addern (carryin,x,y,s,carryout);
     parameter n = 2;
@@ -7,7 +7,7 @@ module addern (carryin,x,y,s,carryout);
     output reg carryout;
     output reg [n-1:0]s;
     reg [n:0]c;
-    integer k;  // å¾ªç¯å˜é‡çš„å®šä¹‰
+    integer k;  // Ñ­»·±äÁ¿µÄ¶¨Òå
     always@(x,y,carryin)
     begin
         c[0] = carryin;

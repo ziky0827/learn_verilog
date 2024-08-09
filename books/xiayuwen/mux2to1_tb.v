@@ -2,10 +2,10 @@
  * @Author       : ziky
  * @Date         : 2023-10-26 19:38:17
  * @Version      : V1.0.0
- * @LastEditTime : 2024-08-08 22:43:51
+ * @LastEditTime : 2024-08-09 21:13:20
  * @LastEditors  : ziky
- * @FilePath     : \verilog_prj\xiayuwen\mux2to1_tb.v
- * @Description  :  ‰≥ˆ¥Ú”°≤‚ ‘
+ * @FilePath     : \verilog_prj\books\xiayuwen\mux2to1_tb.v
+ * @Description  :  ‰≥ˆ¥Ú”°≤‚ ‘strobe,mointor,display
  */
 `timescale 1ns/1ps
 `include "mux2to1.v"
